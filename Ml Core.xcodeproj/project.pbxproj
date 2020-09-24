@@ -15,6 +15,7 @@
 		793E4609251C08840032EC18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 793E4607251C08840032EC18 /* LaunchScreen.storyboard */; };
 		793E4614251C08840032EC18 /* Ml_CoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793E4613251C08840032EC18 /* Ml_CoreTests.swift */; };
 		793E461F251C08840032EC18 /* Ml_CoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793E461E251C08840032EC18 /* Ml_CoreUITests.swift */; };
+		793E462D251C11EF0032EC18 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 793E462C251C11EF0032EC18 /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		793E461A251C08840032EC18 /* Ml CoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ml CoreUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		793E461E251C08840032EC18 /* Ml_CoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ml_CoreUITests.swift; sourceTree = "<group>"; };
 		793E4620251C08840032EC18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		793E462C251C11EF0032EC18 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		793E45FB251C087F0032EC18 /* Ml Core */ = {
 			isa = PBXGroup;
 			children = (
+				793E462C251C11EF0032EC18 /* Inceptionv3.mlmodel */,
 				793E45FC251C087F0032EC18 /* AppDelegate.swift */,
 				793E45FE251C087F0032EC18 /* SceneDelegate.swift */,
 				793E4600251C087F0032EC18 /* ViewController.swift */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				793E4601251C087F0032EC18 /* ViewController.swift in Sources */,
+				793E462D251C11EF0032EC18 /* Inceptionv3.mlmodel in Sources */,
 				793E45FD251C087F0032EC18 /* AppDelegate.swift in Sources */,
 				793E45FF251C087F0032EC18 /* SceneDelegate.swift in Sources */,
 			);
